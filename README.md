@@ -3,7 +3,13 @@ docs for requirement / architecture / detail design / guide
 
 ## 0. Naming 命名
 
-临时命名为 tsingchat 轻聊/轻谈
+临时命名为 tsingchat 轻扯
+> 扯 
+> 撦 
+> chě 
+>【动】 
+> (形声。从手,奢声。扯是“撦”的俗字。本义:撕裂) 
+> 谈话,多指漫无边际的谈话〖chat;gossip〗。如:闲扯;扯家常;东拉西扯;扯个没完;扯蛋(胡扯) 
 
 一个轻型快速的 IM ( instance messaging) 即时消息中间件, 
 
@@ -47,6 +53,8 @@ docs for requirement / architecture / detail design / guide
 
 1. IM 部分模型借鉴  [goim](https://goim.io) , 内部通讯变更为 gRPC + flatbuffers 
 2. TCP 部分借鉴 [kcp-go](https://github.com/xtaci/kcp-go) 与 [smux](https://github.com/xtaci/smux) , 感谢 [xtaci](https://github.com/xtaci) 
+
+## 4. 
 
 ## 4. copyright 
 版权归属 tsingchat 小组所有
