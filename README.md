@@ -56,10 +56,16 @@ docs for requirement / architecture / detail design / guide
 
 本软件 IM 部分的网元架构与通讯模式借鉴 [goim](https://goim.io), 在此向 [毛剑](https://github.com/Terry-Mao) 表示诚挚感谢.
 
-1. IM 部分模型借鉴  [goim](https://goim.io) , 内部通讯变更为 gRPC + flatbuffers 
-2. TCP 部分借鉴 [kcp-go](https://github.com/xtaci/kcp-go) 与 [smux](https://github.com/xtaci/smux) , 感谢 [xtaci](https://github.com/xtaci) 
+借鉴, 但不是 code copy, 毕竟, 从本源上来说, 从 goim 与类似 im 开源中, 已经学习到很多, 重新写代码有利于自己再走一遍, 将来扩展与优化更方便. 再进一步, 软件是一个活的生命体, 只有持续的自身进化, 才有发展的可能性
 
-## 4. 
+1. IM 数据模型 protobuffers 小部分借鉴  [goim](https://goim.io) , 变更为 gRPC + flatbuffers 
+2. TCP 部分借鉴并部分复用  [kcp-go](https://github.com/xtaci/kcp-go) 与 [smux](https://github.com/xtaci/smux) 开源代码, 感谢 [xtaci](https://github.com/xtaci) 
+3. WS 部分,采用[https://github.com/nhooyr/websocket](https://github.com/nhooyr/websocket)
+4. HTTP 部,分采用[https://github.com/valyala/fasthttp](https://github.com/valyala/fasthttp)
+5. json 部分,采用[https://github.com/valyala/fastjson](https://github.com/valyala/fastjson) 与 
+5. redis 部分,采用[https://github.com/go-redis/redis](https://github.com/go-redis/redis)
+6. goroutine pool 部分, 采用 [https://github.com/panjf2000/ants](https://github.com/panjf2000/ants)
+7. cache 部分, 采用[https://github.com/VictoriaMetrics/fastcache](https://github.com/VictoriaMetrics/fastcache)
 
 ## 4. copyright 
 版权归属 tsingchat 小组所有
