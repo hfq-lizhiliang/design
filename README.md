@@ -50,5 +50,7 @@ docs for requirement / architecture / detail design / guide
 
 ## 4. copyright 
 版权归属 tsingchat 小组所有
+
 本软件中采用其他开源软件, 版权归各自开发者所有
+
 tsingchat 授权方式稍后确定.
