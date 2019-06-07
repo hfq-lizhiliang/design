@@ -5,10 +5,15 @@ docs for requirement / architecture / detail design / guide
 
 临时命名为 tsingchat 轻扯
 > 扯 
+>
 > 撦 
+>
 > chě 
+>
 >【动】 
+>
 > (形声。从手,奢声。扯是“撦”的俗字。本义:撕裂) 
+>
 > 谈话,多指漫无边际的谈话〖chat;gossip〗。如:闲扯;扯家常;东拉西扯;扯个没完;扯蛋(胡扯) 
 
 一个轻型快速的 IM ( instance messaging) 即时消息中间件, 
