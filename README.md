@@ -68,7 +68,10 @@ docs for requirement / architecture / detail design / guide
 7. cache 部分, 采用[https://github.com/VictoriaMetrics/fastcache](https://github.com/VictoriaMetrics/fastcache) 
 8. postgres 部分, 采用 [https://github.com/jackc/pgx](https://github.com/jackc/pgx)
 
-## 4. copyright 
+## 4. WIP 开发进展
+1. MVP 阶段, 概要设计文档, 接口设计文档进行中,  MVP 原型设计进行中
+
+## 5. copyright 
 版权归属 tsingchat 小组所有
 
 本软件中采用其他开源软件, 版权归各自开发者所有
